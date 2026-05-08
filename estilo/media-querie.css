@@ -24,11 +24,13 @@ Preto: #0D0D0D
         height: 100%;
     }
 
-    section#login > div#ormulario{
+    section#login > div#formulario{
         float: right;
         width: 70%;
     }
-
+    div.campo > label{
+     display: inline-block;
+}
 
 
 }
@@ -51,9 +53,13 @@ Preto: #0D0D0D
     }
 
 
-    section#login > div#ormulario{
+    section#login > div#formulario{
         float: right;
         width: 50%;
     }
+
+    div.campo > label{
+        display: inline-block;
+}
 
 }

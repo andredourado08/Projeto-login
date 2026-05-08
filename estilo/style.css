@@ -36,7 +36,7 @@ section#login{
     transform: translate(-50% , -50%);
     background-color: #F2F2F2;
     width: 250px;
-    height:500px ;
+    height:515px ;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 15px #8C1616;
@@ -56,11 +56,32 @@ section#login > div#ormulario{
     display: block;
 }
 
+div.campo > label{
+    display: none;
+}
+
+div.campo > input{
+    background-color: #ffffff;
+    font-size: 1em;
+    
+}
+form > div.campo{
+    background-color: #b41a1a;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
     width: 100%;
+    border-radius: 5px;
     background-color: #8C1616;
+    color: white;
 }
 
 form > input[type=submit]:hover{
@@ -79,9 +100,10 @@ form > a.botao{
     border: 1px solid #8d1515;
     border-radius: 5px;
     text-decoration: none;
+    color: white;
 }
 
 
 form > a.botao:hover{
-background-color: white;
+background-color: #8C1616;
 }
